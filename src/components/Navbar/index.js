@@ -69,7 +69,6 @@ const Navbar = ({ toggle }) => {
           <FaInstagram onClick={() => openLink("instagram")} />
         </NavIcon>
       </NavIcons>
-
       <NavMenu>
         <NavItem>
           <NavLink to='about' smooth={true} duration={500} spy={true}

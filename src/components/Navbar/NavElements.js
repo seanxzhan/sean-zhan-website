@@ -75,6 +75,11 @@ export const NavLink = styled(LinkS)`
   &:hover {
     color: ${({ color }) => ( color )};
   }
+
+  &.active {
+    transition: 0.4s all ease;
+    color: ${({ color }) => ( color )};
+  }
 `;
 
 export const NavIcons = styled.div`

@@ -1,6 +1,7 @@
 import '../Main.scss'
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
 import About from '../components/About'
 import Publications from '../components/Publications';
 import Experience from '../components/Experience';
@@ -15,6 +16,7 @@ function Home() {
 
   return (
     <div>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <About />
       <Publications />
