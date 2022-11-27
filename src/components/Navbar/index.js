@@ -1,16 +1,15 @@
-import './Navbar.scss'
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
-// import { animateScroll as scroll } from 'react-scroll';
 import { FaGithub, FaLinkedin, FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
 import {
+  Nav,
+  NavbarContainer,
+  MobileIcon,
+  NavMenu,
   NavItem,
-  NavLink
+  NavLink,
+  NavIcons,
+  NavIcon
 } from './NavElements';
-
-const navStyle = {
-  fontSize: '1.3em'
-}
 
 const openLink = (which) => {
   const github = "https://github.com/seanzhan0319";
@@ -57,70 +56,51 @@ const Navbar = ({ toggle }) => {
   // };
 
   return (
-    <nav scrollNav={scrollNav}>
-      <icons>
-        <icon>
+    <Nav color='#304856'>
+      <NavbarContainer>
+      <NavIcons>
+        <NavIcon color='#d4ac2a'>
           <FaGithub onClick={() => openLink("github")} />
-        </icon>
-        <icon>
+        </NavIcon>
+        <NavIcon color='#d4ac2a'>
           <FaLinkedin onClick={() => openLink("linkedin")} />
-        </icon>
-        <icon>
+        </NavIcon>
+        <NavIcon color='#d4ac2a'>
           <FaInstagram onClick={() => openLink("instagram")} />
-        </icon>
-      </icons>
-      <options>
-        {/* <NavItem> */}
-          <Link
-            to='about'
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}>
+        </NavIcon>
+      </NavIcons>
+
+      <NavMenu>
+        <NavItem>
+          <NavLink to='about' smooth={true} duration={500} spy={true}
+                   exact='true' offset={-80} color='#d4ac2a'>
             About
-          </Link>
-        {/* </NavItem> */}
-        {/* <NavItem>
-          <NavLink
-            to='publications'
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}>
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to='publications' smooth={true} duration={500} spy={true}
+                   exact='true' offset={-80} color='#d4ac2a'>
             Publications
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink
-            to='experience'
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}>
+          <NavLink to='experience' smooth={true} duration={500} spy={true}
+                   exact='true' offset={-80} color='#d4ac2a'>
             Experience
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink
-            to='project'
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}>
-            Project
+          <NavLink to='projects' smooth={true} duration={500} spy={true}
+                   exact='true' offset={-80} color='#d4ac2a'>
+            Projects
           </NavLink>
-        </NavItem> */}
-      </options>
-      <mobilebtn onClick={toggle}>
-        <icon>
+        </NavItem>
+      </NavMenu>
+      <MobileIcon onClick={toggle} color='#d4ac2a'>
           <FaBars />
-        </icon>
-      </mobilebtn>
-    </nav>
+      </MobileIcon>
+      </NavbarContainer>
+    </Nav>
   )
 }
 

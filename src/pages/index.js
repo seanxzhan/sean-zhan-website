@@ -1,7 +1,10 @@
+import '../Main.scss'
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import About from '../components/About'
 import Publications from '../components/Publications';
+import Experience from '../components/Experience';
+import Projects from '../components/Projects';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,11 +14,13 @@ function Home() {
   };
 
   return (
-    <pagesWrapper>
+    <div>
       <Navbar toggle={toggle} />
       <About />
       <Publications />
-    </pagesWrapper>
+      <Experience />
+      <Projects />
+    </div>
   )
 
 }

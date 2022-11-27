@@ -1,17 +1,94 @@
 import styled from 'styled-components';
-import { Link } from 'react-scroll';
+import { Link as LinkS } from 'react-scroll';
+import { Link as LinkR } from 'react-router-dom';
 
-// export const NavItem = styled.li`
-//   height: 80px;
-// `;
+export const Nav = styled.nav`
+  background: ${({ color }) => ( color )};
+  height: 80px;
+  // margin-top: -80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 
-export const NavLink = styled(Link)`
-  font-size: 1.3em;
-  border-bottom: 1px solid transparent;
-  margin: 1em;
+  @media screen and (max-width: 768px) {
+    transition: 0.8s all ease;
+  }
+`;
+
+export const NavbarContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  padding: 0 24px;
+  max-width: 1100px;
+`;
+
+export const MobileIcon = styled.div`
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 50%);
+    font-size: 2rem;
+    color: #ecede7;
+  }
+
+  &:hover {
+    color: ${({ color }) => ( color )};
+  }
+`;
+
+export const NavMenu = styled.ul`
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  // margin-right: -22px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const NavItem = styled.li`
+  height: 80px;
+`;
+
+export const NavLink = styled(LinkS)`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
   cursor: pointer;
+  color: #ecede7;
 
-  @media screen and (max-width: 850px) {
-      display: none;
+  &:hover {
+    color: ${({ color }) => ( color )};
+  }
+`;
+
+export const NavIcons = styled.div`
+  gap: 1.5em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+`;
+
+export const NavIcon = styled.div`
+  font-size: 2em;
+  color: #ecede7;
+
+  &:hover {
+    color: ${({ color }) => ( color )};
   }
 `;
