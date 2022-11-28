@@ -1,13 +1,50 @@
 import React from 'react';
+import {
+  InfoContainer,
+  InfoWrapper,
+  InfoRow,
+  Column1,
+  Column2,
+  TextWrapper,
+  Heading,
+  Subtitle,
+  ImgWrap,
+  Img
+} from './AboutElements';
 
-const About = () => {
+const InfoSection = ({
+  imgStart,
+  headline,
+  description,
+  description2,
+  img,
+  alt,
+  id,
+  primary
+}) => {
+  console.log(primary);
   return (
-    <section id={'about'}>
-      <wrapper>
-        About
-      </wrapper>
-    </section>
-  )
-}
+    <>
+      <InfoContainer id={id}>
+        <InfoWrapper>
+          <InfoRow imgStart={imgStart}>
+            <Column1>
+              <TextWrapper>
+                <Heading color='#304856'>{headline}</Heading>
+                <Subtitle color='#304856'>{description}</Subtitle>
+                <Subtitle color='#304856'>{description2}</Subtitle>
+              </TextWrapper>
+            </Column1>
+            <Column2>
+              <ImgWrap>
+                <Img src={img} alt={alt} />
+              </ImgWrap>
+            </Column2>
+          </InfoRow>
+        </InfoWrapper>
+      </InfoContainer>
+    </>
+  );
+};
 
-export default About;
+export default InfoSection;

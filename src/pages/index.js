@@ -7,6 +7,10 @@ import Publications from '../components/Publications';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
 
+import {
+  homeObjOne,
+} from '../components/About/Data';
+
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +22,7 @@ function Home() {
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <About />
+      <About {...homeObjOne}/>
       <Publications />
       <Experience />
       <Projects />
