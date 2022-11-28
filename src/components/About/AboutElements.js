@@ -6,13 +6,14 @@ export const InfoContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
+    margin-bottom: -40px;
   }
 `;
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 800px;
+  min-height: 700px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -41,7 +42,7 @@ export const Column1 = styled.div`
   grid-area: col1;
 
   @media screen and (max-width: 768px) {
-    margin-bottom: 0px;
+    margin-bottom: 50px;
   }
 `;
 
