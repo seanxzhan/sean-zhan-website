@@ -26,7 +26,7 @@ export const ExpWrapper = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 1;
-  min-height: 800px;
+  min-height: 600px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
