@@ -40,12 +40,13 @@ export const Column1 = styled.div`
   padding: 0 15px;
   grid-area: col1;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     margin-bottom: 0px;
   }
 `;
 
 export const Column2 = styled.div`
+  margin-top: -30px;
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
@@ -63,7 +64,7 @@ export const Heading = styled.h1`
   line-height: 1.1;
   color: ${({ color }) => ( color )};
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 32px;
   }
 `;
@@ -86,6 +87,10 @@ export const ImgWrap = styled.div`
   height: 100%;
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    max-width: 450px;
+  }
 `;
 
 export const Img = styled.img`
