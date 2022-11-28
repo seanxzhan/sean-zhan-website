@@ -57,7 +57,6 @@ export const Heading = styled.h1`
   margin-bottom: 40px;
   font-size: 48px;
   line-height: 1.1;
-  font-weight: 600;
   color: ${({ color }) => ( color )};
 
   @media screen and (max-width: 480px) {
@@ -66,7 +65,7 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  max-width: 440px;
+  // max-width: 440px;
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 24px;
@@ -81,6 +80,8 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
+  display: flex;
+  justify-content: center;
 `;
 
 export const Img = styled.img`
