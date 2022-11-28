@@ -23,7 +23,6 @@ const Intro = ({
   id,
   primary
 }) => {
-  console.log(primary);
   return (
     <>
       <InfoContainer id={id}>

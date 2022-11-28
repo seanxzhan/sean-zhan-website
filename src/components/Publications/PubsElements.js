@@ -118,13 +118,13 @@ export const PubsLine = styled.div`
 export const PubH1 = styled.h1`
   font-size: 2.5rem;
   color: #304856;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 64px;
   // background-color: red;
   text-align: center;
 
   @media screen and (max-width: 480px) {
     font-size: 1.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 `;
