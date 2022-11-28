@@ -39,6 +39,10 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
+
+  @media screen and (max-width: 480px) {
+    margin-bottom: 0px;
+  }
 `;
 
 export const Column2 = styled.div`

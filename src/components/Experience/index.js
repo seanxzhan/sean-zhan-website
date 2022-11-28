@@ -9,12 +9,14 @@ import {
   ServicesIcon,
   ServicesH2,
   ServicesH3,
-  ServicesP
+  ServicesP,
+  ExpWrapper
 } from './ExpElements';
 
 const Services = () => {
   return (
     <ServicesContainer id='experience'>
+      <ExpWrapper>
       <ServicesH1>Experience</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
@@ -41,6 +43,7 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
+      </ExpWrapper>
     </ServicesContainer>
   );
 };

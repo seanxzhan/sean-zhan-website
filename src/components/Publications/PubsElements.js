@@ -2,10 +2,9 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   background-color: #ecede7;
-  border-bottom: 1px solid black;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 10px 0;
   }
 `;
 
@@ -13,7 +12,7 @@ export const InfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 1;
-  min-height: 800px;
+  min-height: 600px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -38,6 +37,7 @@ export const PubsRow = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    // background: red;
   }
 `;
 
@@ -47,7 +47,8 @@ export const PubsImgWrapper = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    // background: red;
   }
 `
 
@@ -75,6 +76,10 @@ export const PubsTitle = styled.a`
   &:hover {
     color: #758c9b;
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: 1em;
+  }
 `;
 
 export const PubsAuthor = styled.a`
@@ -86,10 +91,18 @@ export const PubsAuthor = styled.a`
   &:hover {
     color: #758c9b;
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: 0.9em;
+  }
 `;
 
 export const PubsText = styled.a`
   color: #304856;
+
+  @media screen and (max-width: 480px) {
+    font-size: 0.9em;
+  }
 `
 
 export const PubsLine = styled.div`
@@ -97,17 +110,22 @@ export const PubsLine = styled.div`
   display: block;
   overflow-wrap: break-word;
   padding-bottom: 0.3rem;
+
+  @media screen and (max-width: 480px) {
+    font-size: 0.9em;
+  }
 `;
 
 export const PubH1 = styled.h1`
   font-size: 2.5rem;
   color: #304856;
-  margin-top: 5%;
+  margin-top: 50px;
   margin-bottom: 64px;
   // background-color: red;
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
   }
 `;
