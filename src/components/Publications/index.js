@@ -58,6 +58,13 @@ const Publications = ({
                 </PubsLine>
               </PubsDescription>
             </PubsRow>
+            <PubsRow>
+              <PubsDescription>
+                <PubsLine>
+                  More to come...
+                </PubsLine>
+              </PubsDescription>
+            </PubsRow>
           </PubsContainer>
         </InfoWrapper>
       </InfoContainer>
