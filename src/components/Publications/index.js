@@ -1,12 +1,16 @@
 import React from 'react';
+import { InfoWrapper } from '../About/AboutElements';
+import { InfoContainer } from './PubsElements';
 
 const Publications = () => {
   return (
-    <section id={'publications'}>
-      <wrapper>
-        Publications
-      </wrapper>
-    </section>
+    <>
+      <InfoContainer id='publications'>
+        <InfoWrapper>
+          Publications
+        </InfoWrapper>
+      </InfoContainer>
+    </>
   )
 }
 

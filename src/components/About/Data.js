@@ -1,6 +1,6 @@
 export const homeObjOne = {
   id: 'about',
-  headline: 'Hi! I\'m Sean.',
+  headline: 'Hi! I\'m Sean Zhan.',
   description:
     'I\'m an undergraduate graphics researcher at Brown University. ' +
     'My research focuses on the intersection of computer graphics and '+
