@@ -61,7 +61,7 @@ const Publications = ({
             <PubsRow>
               <PubsDescription>
                 <PubsLine>
-                  More to come...
+                  More to come!
                 </PubsLine>
               </PubsDescription>
             </PubsRow>

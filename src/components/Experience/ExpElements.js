@@ -26,7 +26,7 @@ export const ExpWrapper = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 1;
-  min-height: 600px;
+  min-height: 700px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -61,7 +61,7 @@ export const ServicesCard = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  height: 380px;
+  min-height: 380px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -95,11 +95,13 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
   font-size: 1.3rem;
   margin-bottom: 10px;
+  text-align: center;
 `;
 
 export const ServicesH3 = styled.h2`
   font-size: 1.15rem;
   margin-bottom: 10px;
+  text-align: center;
 `;
 
 export const ServicesP = styled.p`
