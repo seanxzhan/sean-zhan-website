@@ -108,6 +108,7 @@ export const PubsText = styled.a`
 export const PubsLine = styled.div`
   margin-left: 1rem;
   display: block;
+  color: #304856;
   padding-bottom: 0.3rem;
 
   @media screen and (max-width: 480px) {
