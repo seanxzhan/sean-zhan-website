@@ -5,15 +5,7 @@ import Sidebar from '../components/Sidebar';
 import About from '../components/About'
 import Publications from '../components/Publications';
 import Experience from '../components/Experience';
-import Projects from '../components/Projects';
-
-import {
-  homeObjOne,
-} from '../components/About/Data';
-
-import {
-  pub1,
-} from '../components/Publications/Data';
+// import Projects from '../components/Projects';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,9 +18,9 @@ function Home() {
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <About {...homeObjOne} />
+      <About />
       <Experience />
-      <Publications {...pub1} />
+      <Publications />
       {/* <Projects /> */}
     </div>
   )

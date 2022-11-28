@@ -108,7 +108,6 @@ export const PubsText = styled.a`
 export const PubsLine = styled.div`
   margin-left: 1rem;
   display: block;
-  overflow-wrap: break-word;
   padding-bottom: 0.3rem;
 
   @media screen and (max-width: 480px) {

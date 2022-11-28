@@ -1,4 +1,4 @@
-export const homeObjOne = {
+export const AboutMe = {
   id: 'about',
   headline: 'Hi! I\'m Sean Zhan.',
   description:

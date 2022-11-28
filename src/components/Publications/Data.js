@@ -1,4 +1,4 @@
-export const pub1 = {
+const pub1 = {
   title: 'ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model',
   arxivLink: 'https://arxiv.org/abs/2207.09446',
   projectLink: 'https://ivl.brown.edu/projects/shapecrafter',
@@ -10,6 +10,9 @@ export const pub1 = {
     'Srinath Sridhar': 'https://cs.brown.edu/people/ssrinath/'
   },
   venue: 'NeurIPS 2022',
-  img: require('../../images/sean.jpg'),
+  img: require('../../images/pubs/shapecrafter.jpg'),
   alt: 'shapecrafter',
 };
+
+const Pubs = [ pub1 ];
+module.exports = Pubs;

@@ -11,8 +11,9 @@ import {
   ImgWrap,
   Img
 } from './AboutElements';
+import { AboutMe } from './Data';
 
-const InfoSection = ({
+const Intro = ({
   imgStart,
   headline,
   description,
@@ -46,5 +47,11 @@ const InfoSection = ({
     </>
   );
 };
+
+const InfoSection = () => {
+  return (
+    <Intro {...AboutMe}/>
+  )
+}
 
 export default InfoSection;

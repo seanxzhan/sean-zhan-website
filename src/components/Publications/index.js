@@ -13,9 +13,9 @@ import {
   PubsLine,
   PubH1
 } from './PubsElements';
-import ShapeCrafter from '../../images/pubs/shapecrafter.jpg'
+import Pubs from './Data';
 
-const Publications = ({
+const Row = ({
   title,
   arxivLink,
   projectLink,
@@ -26,10 +26,43 @@ const Publications = ({
 }) => {
   const authorList = Object.entries(authors).map(
     ([ key, value ]) => {
-      return value == '' ? (<PubsText>{key}</PubsText>) : (<PubsAuthor href={value} target='_blank'>{key}</PubsAuthor>)
+      return value === '' ?
+      (<PubsText>{key}</PubsText>) :
+      (<PubsAuthor href={value} target='_blank'>{key}</PubsAuthor>)
     }
   );
   const authorsLine = authorList.reduce((prev, curr) => [prev, ', ', curr]);
+
+  return (
+    <PubsRow>
+      <PubsImgWrapper>
+        <PubsImg src={img} alt={alt} />
+      </PubsImgWrapper>
+      <PubsDescription>
+        <PubsTitle href={arxivLink} target='_blank'>
+          {title}
+        </PubsTitle>
+        <PubsLine>
+          {authorsLine}
+        </PubsLine>
+        <PubsLine style={{ fontStyle: 'italic' }}>
+          {venue}
+        </PubsLine>
+        <PubsLine>
+        <PubsAuthor href={projectLink} target='_blank'>
+          project page
+        </PubsAuthor>
+        </PubsLine>
+      </PubsDescription>
+    </PubsRow>
+  )
+}
+
+const Publications = () => {
+  const rowList = Pubs.map(
+    ( value ) => { return (<Row {...value} />) }
+  )
+  const allRows = rowList.reduce((prev, curr) => [prev, curr]);
 
   return (
     <>
@@ -37,27 +70,7 @@ const Publications = ({
         <InfoWrapper>
           <PubH1>Publications</PubH1>
           <PubsContainer>
-            <PubsRow>
-              <PubsImgWrapper>
-                <PubsImg src={ShapeCrafter} />
-              </PubsImgWrapper>
-              <PubsDescription>
-                <PubsTitle href={arxivLink} target='_blank'>
-                  {title}
-                </PubsTitle>
-                <PubsLine>
-                  {authorsLine}
-                </PubsLine>
-                <PubsLine style={{ fontStyle: 'italic' }}>
-                  {venue}
-                </PubsLine>
-                <PubsLine>
-                <PubsAuthor href={projectLink} target='_blank'>
-                  project page
-                </PubsAuthor>
-                </PubsLine>
-              </PubsDescription>
-            </PubsRow>
+            {allRows}
             <PubsRow>
               <PubsDescription>
                 <PubsLine>
