@@ -88,12 +88,12 @@ const Navbar = ({ toggle }) => {
             Publications
           </NavLink>
         </NavItem>
-        <NavItem>
+        {/* <NavItem>
           <NavLink to='projects' smooth={true} duration={500} spy={true}
                    exact='true' offset={-80} color='#d4ac2a'>
             Projects
           </NavLink>
-        </NavItem>
+        </NavItem> */}
       </NavMenu>
       <MobileIcon onClick={toggle} color='#d4ac2a'>
           <FaBars />

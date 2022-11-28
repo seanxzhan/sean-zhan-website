@@ -11,6 +11,10 @@ import {
   homeObjOne,
 } from '../components/About/Data';
 
+import {
+  pub1,
+} from '../components/Publications/Data';
+
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -22,10 +26,10 @@ function Home() {
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <About {...homeObjOne}/>
+      <About {...homeObjOne} />
       <Experience />
-      <Publications />
-      <Projects />
+      <Publications {...pub1} />
+      {/* <Projects /> */}
     </div>
   )
 

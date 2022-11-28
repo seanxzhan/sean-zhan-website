@@ -34,11 +34,11 @@ const Sidebar = ({ isOpen, toggle }) => {
                        color='#d4ac2a' >
             Publications
           </SidebarLink>
-          <SidebarLink to='projects' onClick={toggle} smooth={true}
+          {/* <SidebarLink to='projects' onClick={toggle} smooth={true}
                        duration={500} spy={true} exact='true' offset={-80}
                        color='#d4ac2a'>
             Projects
-          </SidebarLink>
+          </SidebarLink> */}
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

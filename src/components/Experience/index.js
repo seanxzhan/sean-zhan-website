@@ -1,7 +1,4 @@
 import React from 'react';
-// import Icon1 from '../../images/svg-1.svg';
-// import Icon2 from '../../images/svg-3.svg';
-// import Icon3 from '../../images/svg-5.svg';
 import Pixar from '../../images/pixar.jpg';
 import BVC from '../../images/bvc.jpg';
 import {
@@ -23,7 +20,7 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={Pixar} />
           <ServicesH2>Pixar Animation Studios</ServicesH2>
-          <ServicesH3>Research Intern</ServicesH3>
+          <ServicesH3>Research Intern '22</ServicesH3>
           <ServicesP>
             Worked on neural skinning to predict corrective shapes for character
             rigging. Outperformed linear blend skinning by an 80% increase in
@@ -33,14 +30,14 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={BVC} />
           <ServicesH2>Brown Visual Computing</ServicesH2>
-          <ServicesH3>Research Assistant</ServicesH3>
+          <ServicesH3>Research Assistant '20 - '22</ServicesH3>
           <ServicesP>
-            <span style={{ fontWeight: 'bold' }}>CharacterMixer</span>:
-            Interpolates between characters of different mesh and skeleton topology.
+            <span style={{ fontWeight: 'bold' }}>CharacterMixer </span>
+            interpolates between characters of different mesh and skeleton topology.
           </ServicesP>
           <ServicesP>
-            <span style={{ fontWeight: 'bold' }}>ShapeCrafter</span>:
-            Recursively modifies 3D shapes given text inputs.
+            <span style={{ fontWeight: 'bold' }}>ShapeCrafter </span>
+            recursively modifies 3D shapes given text inputs.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
