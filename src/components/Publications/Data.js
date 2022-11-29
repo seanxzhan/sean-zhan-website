@@ -1,7 +1,7 @@
 const pub1 = {
   title: 'ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model',
   arxivLink: 'https://arxiv.org/abs/2207.09446',
-  projectLink: 'https://ivl.brown.edu/projects/shapecrafter',
+  projectLink: 'https://ivl.cs.brown.edu/#/projects/shapecrafter',
   authors: {
     'Rao Fu': 'https://freddierao.github.io/',
     'Xiao Zhan': 'https://seanzhan.com/',
