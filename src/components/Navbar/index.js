@@ -23,7 +23,7 @@ const openLink = (which) => {
   const github = "https://github.com/seanzhan0319";
   const linkedin = "https://www.linkedin.com/in/sean-zhan/";
   const instagram = "https://www.instagram.com/sean.takes.shots/";
-  const scholar = "https://scholar.google.com/citations?user=FwzvJt8AAAAJ&hl=en";
+  const scholar = "https://scholar.google.com/citations?user=gG5iL0QAAAAJ&hl=en";
   const resume = Resume;
 
 
