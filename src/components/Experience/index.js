@@ -34,10 +34,6 @@ const Services = () => {
           <ServicesH2>Brown Visual Computing</ServicesH2>
           <ServicesH3>Research Assistant '20 - '22</ServicesH3>
           <ServicesP>
-            <span style={{ fontWeight: 'bold' }}>CharacterMixer </span>
-            interpolates between characters of different mesh and skeleton topology.
-          </ServicesP>
-          <ServicesP>
             <span style={{ fontWeight: 'bold' }}>ShapeCrafter </span>
             recursively modifies 3D shapes given text inputs.
           </ServicesP>
