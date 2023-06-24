@@ -40,7 +40,7 @@ export const InfoRow = styled.div`
 
 export const NewsWrapper = styled.div`
   z-index: 1;
-  min-height: 220px;
+  min-height: 200px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -49,7 +49,7 @@ export const NewsWrapper = styled.div`
   margin-bottom: 30px;
 
   @media screen and (max-width: 768px) {
-    min-height: 380px;
+    min-height: 300px;
   }
 `;
 
@@ -97,12 +97,14 @@ export const TextWrapper = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 30px;
-  font-size: 32px;
+  // font-size: 36px;
+  font-size: 2.5rem;
   line-height: 1.1;
   color: ${({ color }) => ( color )};
 
   @media screen and (max-width: 768px) {
-    font-size: 32px;
+    // font-size: 32px;
+    font-size: 2rem;
   }
 `;
 
@@ -110,12 +112,13 @@ export const NewsHeading = styled.h1`
   margin-bottom: 20px;
   // font-size: 32px;
   // font-size: 2.5rem;
-  font-size: 1.2em;
-  line-height: 1.1;
+  font-size: 1.5em;
+  // line-height: 1.1;
   color: ${({ color }) => ( color )};
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    // font-size: 24px;
+    // font-size: 1.2em;
   }
 `;
 
@@ -129,6 +132,7 @@ export const NewsDate = styled.p`
   width: 20%;
   float: left;
   margin-bottom: 5px;
+  font-weight: bold;
   // background-color: yellow;
 
   @media screen and (max-width: 768px) {

@@ -37,7 +37,7 @@ const Intro = ({
               <TextWrapper>
                 <Heading color='#304856'>Hi! I'm Sean Zhan.</Heading>
                 <Subtitle color='#304856'>
-                  I'm a first year PhD student at MIT CSAIL, where I'm fortunate to be advised by <NewsLink href='https://people.csail.mit.edu/mina/' target='_blank'>Mina</NewsLink>. My research focuses on the intersection of computer graphics and artificial intelligence; I use machine learning techniques to understand, generate, and manipulate 3D shapes. 
+                  I'm a first year PhD student at MIT CSAIL, where I'm fortunate to be advised by <NewsLink href='https://people.csail.mit.edu/mina/' target='_blank'>Mina</NewsLink>. My research focuses on the intersection of computer graphics and artificial intelligence; I use machine learning techniques to understand, generate, and manipulate 3D shapes. I'm supported by the EECS Graduate Alumni Fellowship.
                 </Subtitle>
                 <Subtitle color='#304856'>
                   I previously obtained my undergraduate degree from Brown University, where I conducted research under the guidance of <NewsLink href='https://dritchie.github.io/' target='_blank'>Daniel</NewsLink> and <NewsLink href='https://cs.brown.edu/people/ssrinath/' target='_blank'>Srinath</NewsLink>.
@@ -56,22 +56,18 @@ const Intro = ({
         </InfoWrapper>
         <NewsWrapper>
           <NewsColumn>
-            <NewsHeading color='#304856'>News</NewsHeading>
+            <NewsHeading color='#304856'>Recent News</NewsHeading>
             <NewsRow color='#304856'>
               <NewsDate>May 2023</NewsDate>
               <NewsDesc>I graduated with honors from Brown University.</NewsDesc>
             </NewsRow>
             <NewsRow color='#304856'>
               <NewsDate>May 2023</NewsDate>
-              <NewsDesc>I was awarded the Senior Price by the Brown CS Department.</NewsDesc>
+              <NewsDesc>I was awarded the Senior Prize by the Brown CS Department.</NewsDesc>
             </NewsRow>
             <NewsRow color='#304856'>
               <NewsDate>May 2023</NewsDate>
-              <NewsDesc>I received 2nd place at the Brown CS Undergraduate Symposium out of 19 projects.</NewsDesc>
-            </NewsRow>
-            <NewsRow color='#304856'>
-              <NewsDate>April 2023</NewsDate>
-              <NewsDesc>I have committed to MIT to pursue a doctorate degree. I will be working with <NewsLink href='https://people.csail.mit.edu/mina/' target='_blank'>Mina</NewsLink> at CSAIL.</NewsDesc>
+              <NewsDesc>I won 2nd place at the Brown CS Undergraduate Symposium out of 19 projects.</NewsDesc>
             </NewsRow>
             <NewsRow color='#304856'>
               <NewsDate>October 2022</NewsDate>
