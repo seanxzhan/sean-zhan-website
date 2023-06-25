@@ -39,6 +39,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 50%);
     font-size: 2rem;
     color: #ecede7;
+    margin-top: 0.225rem;
   }
 
   &:hover {
@@ -87,6 +88,11 @@ export const NavIcons = styled.div`
   display: flex;
   align-items: center;
   text-align: center;
+  margin-top: 0.5rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0.4rem;
+  }
 `;
 
 export const NavIcon = styled.div`

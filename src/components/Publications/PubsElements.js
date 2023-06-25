@@ -47,6 +47,7 @@ export const PubsImgWrapper = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
+    margin-top: 15px;
     margin-bottom: 10px;
     // background: red;
   }

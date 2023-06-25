@@ -5,7 +5,8 @@ import {
   FaInstagram,
   FaBars,
   FaUserGraduate,
-  FaFile
+  FaFile,
+  FaFileAlt
 } from 'react-icons/fa';
 import {
   Nav,
@@ -86,7 +87,7 @@ const Navbar = ({ toggle }) => {
             <FaUserGraduate onClick={() => openLink("scholar")} />
           </NavIcon>
           <NavIcon color='#d4ac2a'>
-            <FaFile onClick={() => openLink("resume")} />
+            <FaFileAlt onClick={() => openLink("resume")} />
           </NavIcon>
           {/* <NavIcon color='#d4ac2a'>
             <FaInstagram onClick={() => openLink("instagram")} />
