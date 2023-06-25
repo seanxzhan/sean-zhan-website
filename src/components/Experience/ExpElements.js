@@ -72,7 +72,7 @@ export const ServicesH1 = styled.h1`
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-top: 50px;
   }
 `;
@@ -81,27 +81,26 @@ export const ServicesH2 = styled.h2`
   font-size: 1.3rem;
   margin-bottom: 10px;
   text-align: center;
-
-  @media screen and (max-width: 480px) {
-    font-size: 1.15rem;
-  }
+  color: ${({ color }) => ( color )};
 `;
 
 export const ServicesH3 = styled.h2`
   font-size: 1.15rem;
   margin-bottom: 10px;
   text-align: center;
+  color: ${({ color }) => ( color )};
 
-  @media screen and (max-width: 480px) {
-    font-size: 1rem;
-  }
+  // @media screen and (max-width: 480px) {
+  //   font-size: 1rem;
+  // }
 `;
 
 export const ServicesP = styled.p`
-  font-size: 1rem;
+  font-size: 1.15rem;
   text-align: center;
+  color: ${({ color }) => ( color )};
 
-  @media screen and (max-width: 480px) {
-    font-size: 0.9rem;
-  }
+  // @media screen and (max-width: 480px) {
+  //   font-size: 1rem;
+  // }
 `;

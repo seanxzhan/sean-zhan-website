@@ -47,7 +47,7 @@ export const PubsImgWrapper = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     // background: red;
   }
 `
@@ -55,6 +55,13 @@ export const PubsImgWrapper = styled.div`
 export const PubsImg = styled.img`
   height: 100px;
   width: 160px;
+
+  @media screen and (max-width: 768px) {
+    // height: 150px;
+    // width: 240px;
+    height: 10rem;
+    width: 16rem;
+  }
 `;
 
 export const PubsDescription = styled.div`
@@ -62,11 +69,12 @@ export const PubsDescription = styled.div`
   // display: grid;
   // flex-direction: row;
   // justify-content: flex-start;
+  padding-top: 0.1rem;
   padding-bottom: 1rem;
 `;
 
 export const PubsTitle = styled.a`
-  font-size: 1.2em;
+  font-size: 1.15rem;
   margin-left: 1rem;
   text-decoration: none;
   color: #117bb8;
@@ -77,13 +85,13 @@ export const PubsTitle = styled.a`
     color: #758c9b;
   }
 
-  @media screen and (max-width: 480px) {
-    font-size: 1em;
-  }
+  // @media screen and (max-width: 480px) {
+  //   font-size: 1em;
+  // }
 `;
 
 export const PubsAuthor = styled.a`
-  font-size: 1em;
+  font-size: 1rem;
   // margin-left: 1rem;
   text-decoration: none;
   color: #117bb8;
@@ -92,28 +100,29 @@ export const PubsAuthor = styled.a`
     color: #758c9b;
   }
 
-  @media screen and (max-width: 480px) {
-    font-size: 0.9em;
-  }
+  // @media screen and (max-width: 480px) {
+  //   font-size: 0.9em;
+  // }
 `;
 
 export const PubsText = styled.a`
   color: #304856;
 
-  @media screen and (max-width: 480px) {
-    font-size: 0.9em;
-  }
+  // @media screen and (max-width: 480px) {
+  //   font-size: 0.9em;
+  // }
 `
 
 export const PubsLine = styled.div`
+  font-size: 1rem;
   margin-left: 1rem;
   display: block;
   color: #304856;
   padding-bottom: 0.3rem;
 
-  @media screen and (max-width: 480px) {
-    font-size: 0.9em;
-  }
+  // @media screen and (max-width: 480px) {
+  //   font-size: 0.9em;
+  // }
 `;
 
 export const PubH1 = styled.h1`
@@ -125,7 +134,7 @@ export const PubH1 = styled.h1`
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-bottom: 50px;
   }
 `;

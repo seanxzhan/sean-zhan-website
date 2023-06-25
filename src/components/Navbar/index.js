@@ -88,9 +88,9 @@ const Navbar = ({ toggle }) => {
           <NavIcon color='#d4ac2a'>
             <FaFile onClick={() => openLink("resume")} />
           </NavIcon>
-          <NavIcon color='#d4ac2a'>
+          {/* <NavIcon color='#d4ac2a'>
             <FaInstagram onClick={() => openLink("instagram")} />
-          </NavIcon>
+          </NavIcon> */}
         </NavIcons>
         <NavMenu>
           <NavItem>

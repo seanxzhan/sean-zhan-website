@@ -104,7 +104,7 @@ export const Heading = styled.h1`
 
   @media screen and (max-width: 768px) {
     // font-size: 32px;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 `;
 
@@ -112,18 +112,18 @@ export const NewsHeading = styled.h1`
   margin-bottom: 20px;
   // font-size: 32px;
   // font-size: 2.5rem;
-  font-size: 1.5em;
-  // line-height: 1.1;
+  font-size: 1.3rem;
   color: ${({ color }) => ( color )};
 
   @media screen and (max-width: 768px) {
     // font-size: 24px;
     // font-size: 1.2em;
+    // font-size: 1.5rem;
   }
 `;
 
 export const NewsRow = styled.div`
-  font-size: 18px;
+  font-size: 1.15rem;
   // line-height: 24px;
   color: ${({ color }) => ( color )};
 `;
@@ -164,7 +164,7 @@ export const NewsLink = styled.a`
 export const Subtitle = styled.p`
   // max-width: 440px;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 1.15rem;
   line-height: 24px;
   color: ${({ color }) => ( color )};
 `;

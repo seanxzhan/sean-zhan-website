@@ -71,7 +71,7 @@ const Intro = ({
             </NewsRow>
             <NewsRow color='#304856'>
               <NewsDate>October 2022</NewsDate>
-              <NewsDesc>My first paper on <NewsLink href='https://ivl.cs.brown.edu/#/projects/shapecrafter' target='_blank'>recursively generating 3D shapes from text</NewsLink> was accepted to NeurIPS</NewsDesc>
+              <NewsDesc>My first paper on <NewsLink href='https://ivl.cs.brown.edu/#/projects/shapecrafter' target='_blank'>recursively generating 3D shapes from text</NewsLink> was accepted to NeurIPS.</NewsDesc>
             </NewsRow>
           </NewsColumn>
         </NewsWrapper>
