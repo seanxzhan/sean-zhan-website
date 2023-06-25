@@ -34,6 +34,7 @@ export const PubsRow = styled.div`
   justify-content: flex-start;
   padding-left: 8%;
   padding-right: 8%;
+  // background-color: orange;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -43,11 +44,12 @@ export const PubsRow = styled.div`
 
 export const PubsImgWrapper = styled.div`
   align-items: center;
+  // background-color: yellow;
 
   @media screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    // margin-top: 15px;
     margin-bottom: 10px;
     // background: red;
   }
@@ -62,6 +64,8 @@ export const PubsImg = styled.img`
     // width: 240px;
     height: 10rem;
     width: 16rem;
+    // max-width: 100%;
+    // height: auto;
   }
 `;
 
@@ -72,6 +76,7 @@ export const PubsDescription = styled.div`
   // justify-content: flex-start;
   padding-top: 0.1rem;
   padding-bottom: 1rem;
+  // background-color: red;
 `;
 
 export const PubsTitle = styled.a`
@@ -129,13 +134,13 @@ export const PubsLine = styled.div`
 export const PubH1 = styled.h1`
   font-size: 2.5rem;
   color: #304856;
-  margin-top: 60px;
-  margin-bottom: 64px;
+  margin-top: 3.5rem;
+  margin-bottom: 3.3rem;
   // background-color: red;
   text-align: center;
 
   @media screen and (max-width: 480px) {
     font-size: 1.75rem;
-    margin-bottom: 50px;
+    margin-top: 3.05rem;
   }
 `;

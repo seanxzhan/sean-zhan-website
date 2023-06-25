@@ -53,6 +53,7 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   // margin-right: -22px;
+  margin-right: -1rem;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -89,9 +90,11 @@ export const NavIcons = styled.div`
   align-items: center;
   text-align: center;
   margin-top: 0.5rem;
+  margin-left: 1.6rem;
 
   @media screen and (max-width: 768px) {
     margin-top: 0.4rem;
+    margin-left: 0rem;
   }
 `;
 
