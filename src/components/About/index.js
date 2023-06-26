@@ -20,6 +20,7 @@ import {
   NewsLink
 } from './AboutElements';
 import { AboutMe } from './Data';
+import Resume from '../../pdfs/resume.pdf';
 
 const Intro = ({
   imgStart,
@@ -35,15 +36,18 @@ const Intro = ({
           <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                <Heading color='#304856'>Hi! I'm Sean Zhan.</Heading>
+                <Heading color='#304856'>Hi! I'm Xiao Sean Zhan.</Heading>
                 <Subtitle color='#304856'>
                   I'm a first year PhD student at MIT CSAIL, where I'm fortunate to be advised by <NewsLink href='https://people.csail.mit.edu/mina/' target='_blank'>Mina</NewsLink>. My research focuses on the intersection of computer graphics and artificial intelligence; I use machine learning techniques to understand, generate, and manipulate 3D shapes. I'm supported by the EECS Graduate Alumni Fellowship.
                 </Subtitle>
                 <Subtitle color='#304856'>
-                  I previously obtained my undergraduate degree from Brown University, where I conducted research under the guidance of <NewsLink href='https://dritchie.github.io/' target='_blank'>Daniel</NewsLink> and <NewsLink href='https://cs.brown.edu/people/ssrinath/' target='_blank'>Srinath</NewsLink>.
+                  I previously obtained my Sc.B. from Brown University, where I conducted research under the guidance of <NewsLink href='https://dritchie.github.io/' target='_blank'>Daniel</NewsLink> and <NewsLink href='https://cs.brown.edu/people/ssrinath/' target='_blank'>Srinath</NewsLink>.
+                </Subtitle>
+                <Subtitle color='#304856'>
+                  In my free time, I play ultimate frisbee and guitar, ride (and sometimes build) bikes, and make <NewsLink href="https://www.instagram.com/sean.takes.shots/" target='_blank'>film photographs</NewsLink>.
                 </Subtitle>
                 <LastSubtitle color='#304856'>
-                  In my free time, I play ultimate frisbee and guitar, ride (and sometimes build) bikes, and make <NewsLink href="https://www.instagram.com/sean.takes.shots/" target='_blank'>film photographs</NewsLink>.
+                  <NewsLink href="https://scholar.google.com/citations?user=gG5iL0QAAAAJ&hl=en" target='_blank'>Google Scholar</NewsLink> | <NewsLink href={Resume} target='_blank'>CV</NewsLink>
                 </LastSubtitle>
               </TextWrapper>
             </Column1>

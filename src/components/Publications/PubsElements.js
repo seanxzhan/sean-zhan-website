@@ -135,7 +135,7 @@ export const PubH1 = styled.h1`
   font-size: 2.5rem;
   color: #304856;
   margin-top: 3.5rem;
-  margin-bottom: 3.3rem;
+  margin-bottom: 3.2rem;
   // background-color: red;
   text-align: center;
 
