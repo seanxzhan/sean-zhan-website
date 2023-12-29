@@ -57,6 +57,7 @@ export const NewsWrapper = styled.div`
 export const NewsColumn = styled.div`
   margin-left: 50px;
   // margin-top: -30px;
+  margin-bottom: 80px;
 
   @media screen and (max-width: 768px) {
     // margin-bottom: 30px;
