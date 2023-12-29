@@ -1,6 +1,8 @@
 import React from 'react';
 import Pixar from '../../images/pixar.jpg';
-import BVC from '../../images/bvc.jpg';
+// import BVC from '../../images/bvc.jpg';
+import Brown from '../../images/brown.png';
+import MIT from '../../images/mit.png';
 import {
   ServicesContainer,
   ServicesH1,
@@ -20,6 +22,14 @@ const Services = () => {
       <ServicesH1>Experience</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
+          <ServicesIcon src={MIT} />
+          <ServicesH2 color='#304856'>Massachusetts Institute of Technology</ServicesH2>
+          <ServicesH3 color='#304856'>Ph.D. Student</ServicesH3>
+          <ServicesP color='#304856'>
+            Graphics research in Algorithmic Design Group.
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
           <ServicesIcon src={Pixar} />
           <ServicesH2 color='#304856'>Pixar Animation Studios</ServicesH2>
           <ServicesH3 color='#304856'>Research Intern '22</ServicesH3>
@@ -30,8 +40,8 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={BVC} />
-          <ServicesH2 color='#304856'>Brown Visual Computing</ServicesH2>
+          <ServicesIcon src={Brown} />
+          <ServicesH2 color='#304856'>Brown University</ServicesH2>
           <ServicesH3 color='#304856'>Undergrad RA '20-'22</ServicesH3>
           <ServicesP color='#304856'>
             <span style={{ fontWeight: 'bold' }}>ShapeCrafter </span>

@@ -21,6 +21,7 @@ import {
 } from './AboutElements';
 import { AboutMe } from './Data';
 import Resume from '../../pdfs/resume.pdf';
+// import { Outlet, Link } from "react-router-dom";
 
 const Intro = ({
   imgStart,
@@ -38,7 +39,7 @@ const Intro = ({
               <TextWrapper>
                 <Heading color='#304856'>Hi! I'm Xiao Sean Zhan.</Heading>
                 <Subtitle color='#304856'>
-                  I'm a first year PhD student at MIT CSAIL, where I'm fortunate to be advised by <NewsLink href='https://people.csail.mit.edu/mina/' target='_blank'>Mina</NewsLink>. My research focuses on the intersection of computer graphics and artificial intelligence; I use machine learning techniques to understand, generate, and manipulate 3D shapes. I'm supported by the EECS Graduate Alumni Fellowship.
+                  I'm a first year PhD student at MIT CSAIL, where I'm fortunate to be advised by <NewsLink href='https://people.csail.mit.edu/mina/' target='_blank'>Mina</NewsLink>. To democratize 3D shape creation, my research focuses on the intersection of computer graphics and artificial intelligence; I use machine learning techniques to understand, generate, and manipulate 3D shapes. I'm supported by the EECS Graduate Alumni Fellowship.
                 </Subtitle>
                 <Subtitle color='#304856'>
                   I previously obtained my Sc.B. from Brown University, where I conducted research under the guidance of <NewsLink href='https://dritchie.github.io/' target='_blank'>Daniel</NewsLink> and <NewsLink href='https://cs.brown.edu/people/ssrinath/' target='_blank'>Srinath</NewsLink>.
@@ -48,6 +49,7 @@ const Intro = ({
                 </Subtitle>
                 <LastSubtitle color='#304856'>
                   <NewsLink href="https://scholar.google.com/citations?user=gG5iL0QAAAAJ&hl=en" target='_blank'>Google Scholar</NewsLink> | <NewsLink href={Resume} target='_blank'>CV</NewsLink>
+                  {/* | <Link to='/projects' className='NewsLink'>Past Projects</Link> */}
                 </LastSubtitle>
               </TextWrapper>
             </Column1>
@@ -62,6 +64,10 @@ const Intro = ({
           <NewsColumn>
             <NewsHeading color='#304856'>Recent News</NewsHeading>
             <NewsRow color='#304856'>
+              <NewsDate>December 2023</NewsDate>
+              <NewsDesc>My first first-author paper was conditionally accepted to Eurographics 2024!</NewsDesc>
+            </NewsRow>
+            <NewsRow color='#304856'>
               <NewsDate>May 2023</NewsDate>
               <NewsDesc>I graduated with honors from Brown University.</NewsDesc>
             </NewsRow>
@@ -75,7 +81,7 @@ const Intro = ({
             </NewsRow>
             <NewsRow color='#304856'>
               <NewsDate>October 2022</NewsDate>
-              <NewsDesc>My first paper on <NewsLink href='https://ivl.cs.brown.edu/#/projects/shapecrafter' target='_blank'>recursively generating 3D shapes from text</NewsLink> was accepted to NeurIPS.</NewsDesc>
+              <NewsDesc>My first paper on <NewsLink href='https://ivl.cs.brown.edu/#/projects/shapecrafter' target='_blank'>recursively generating 3D shapes from text</NewsLink> was accepted to NeurIPS 2022.</NewsDesc>
             </NewsRow>
           </NewsColumn>
         </NewsWrapper>

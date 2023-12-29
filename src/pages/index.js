@@ -5,9 +5,9 @@ import Sidebar from '../components/Sidebar';
 import About from '../components/About'
 import Publications from '../components/Publications';
 import Experience from '../components/Experience';
-// import Projects from '../components/Projects';
+import Projects from '../components/Projects';
 
-function Home() {
+export function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -20,11 +20,18 @@ function Home() {
       <Navbar toggle={toggle} />
       <About />
       <Experience />
-      <Publications />
-      {/* <Projects /> */}
+      <Publications />      
     </div>
   )
 
 }
 
-export default Home;
+export function Proj() {
+  return (
+    <div>
+      <Projects />
+    </div>
+  )
+}
+
+// export {Home, Proj};

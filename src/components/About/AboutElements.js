@@ -50,6 +50,7 @@ export const NewsWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     min-height: 300px;
+    padding-bottom: 300px;
   }
 `;
 
