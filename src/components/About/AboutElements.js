@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
   background-color: #ecede7;
   border-bottom: 1px solid black;
+  // background-color: orange;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -40,24 +41,23 @@ export const InfoRow = styled.div`
 
 export const NewsWrapper = styled.div`
   z-index: 1;
-  min-height: 200px;
+  display: flex;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  // background-color: orange;
-  margin-bottom: 30px;
+  // background-color: pink;
+  margin-bottom: 2rem;
 
   @media screen and (max-width: 768px) {
-    min-height: 300px;
-    padding-bottom: 300px;
+    margin-bottom: -30px;
   }
 `;
 
 export const NewsColumn = styled.div`
   margin-left: 50px;
   // margin-top: -30px;
-  margin-bottom: 80px;
+  // background-color: grey;
 
   @media screen and (max-width: 768px) {
     // margin-bottom: 30px;

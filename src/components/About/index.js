@@ -21,7 +21,7 @@ import {
 } from './AboutElements';
 import { AboutMe } from './Data';
 import Resume from '../../pdfs/resume.pdf';
-// import { Outlet, Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Intro = ({
   imgStart,
