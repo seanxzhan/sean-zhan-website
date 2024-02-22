@@ -14,5 +14,19 @@ const pub1 = {
   alt: 'shapecrafter',
 };
 
-const Pubs = [ pub1 ];
+const pub2 = {
+  title: 'CharacterMixer: Rig-Aware Interpolation of Characters',
+  arxivLink: '',
+  projectLink: '',
+  authors: {
+    'Xiao Zhan': 'https://seanzhan.com/',
+    'Rao Fu': 'https://freddierao.github.io/',
+    'Daniel Ritchie': 'https://dritchie.github.io/',
+  },
+  venue: 'Eurographics 2024',
+  img: require('../../images/pubs/charactermixer.jpg'),
+  alt: 'charactermixer',
+};
+
+const Pubs = [ pub1, pub2 ];
 module.exports = Pubs;

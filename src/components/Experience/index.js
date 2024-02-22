@@ -42,10 +42,14 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={Brown} />
           <ServicesH2 color='#304856'>Brown University</ServicesH2>
-          <ServicesH3 color='#304856'>Undergrad RA '20-'22</ServicesH3>
+          <ServicesH3 color='#304856'>Undergrad RA '20-'23</ServicesH3>
           <ServicesP color='#304856'>
             <span style={{ fontWeight: 'bold' }}>ShapeCrafter </span>
-            recursively modifies 3D shapes given text inputs.
+            recursively modifies 3D shape distributions given text inputs.
+          </ServicesP>
+          <ServicesP color='#304856'>
+            <span style={{ fontWeight: 'bold' }}>CharacterMixer </span>
+            interpolates characters during animation sequence.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

@@ -12,7 +12,7 @@ export const InfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 1;
-  min-height: 700px;
+  min-height: 900px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;

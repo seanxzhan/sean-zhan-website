@@ -71,13 +71,13 @@ const Publications = () => {
           <PubH1>Publications</PubH1>
           <PubsContainer>
             {allRows}
-            <PubsRow>
+            {/* <PubsRow>
               <PubsDescription>
                 <PubsLine>
                   More to come!
                 </PubsLine>
               </PubsDescription>
-            </PubsRow>
+            </PubsRow> */}
           </PubsContainer>
         </InfoWrapper>
       </InfoContainer>

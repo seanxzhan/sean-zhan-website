@@ -64,8 +64,8 @@ const Intro = ({
           <NewsColumn>
             <NewsHeading color='#304856'>Recent News</NewsHeading>
             <NewsRow color='#304856'>
-              <NewsDate>December 2023</NewsDate>
-              <NewsDesc>My first first-author paper was conditionally accepted to Eurographics 2024!</NewsDesc>
+              <NewsDate>February 2024</NewsDate>
+              <NewsDesc>My first first-author paper CharacterMixer was accepted to Eurographics 2024!</NewsDesc>
             </NewsRow>
             <NewsRow color='#304856'>
               <NewsDate>May 2023</NewsDate>
