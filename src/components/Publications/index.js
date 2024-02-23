@@ -28,6 +28,8 @@ const Row = ({
     ([ key, value ]) => {
       return value === '' ?
       (<PubsText>{key}</PubsText>) :
+      key === 'Xiao Zhan' ?
+      (<PubsAuthor href={value} target='_blank'><u>{key}</u></PubsAuthor>) :
       (<PubsAuthor href={value} target='_blank'>{key}</PubsAuthor>)
     }
   );

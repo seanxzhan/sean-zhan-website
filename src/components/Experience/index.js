@@ -49,7 +49,7 @@ const Services = () => {
           </ServicesP>
           <ServicesP color='#304856'>
             <span style={{ fontWeight: 'bold' }}>CharacterMixer </span>
-            interpolates characters during animation sequence.
+            interpolates characters during animation sequences.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

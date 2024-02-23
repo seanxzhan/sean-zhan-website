@@ -15,9 +15,9 @@ const pub1 = {
 };
 
 const pub2 = {
-  title: 'CharacterMixer: Rig-Aware Interpolation of Characters',
+  title: 'CharacterMixer: Rig-Aware Interpolation of 3D Characters',
   arxivLink: '',
-  projectLink: '',
+  projectLink: 'https://seanxzhan.github.io/projects/CharacterMixer.html',
   authors: {
     'Xiao Zhan': 'https://seanzhan.com/',
     'Rao Fu': 'https://freddierao.github.io/',
@@ -28,5 +28,5 @@ const pub2 = {
   alt: 'charactermixer',
 };
 
-const Pubs = [ pub1, pub2 ];
+const Pubs = [ pub2, pub1 ];
 module.exports = Pubs;
