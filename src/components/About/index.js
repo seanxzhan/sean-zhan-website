@@ -39,7 +39,7 @@ const Intro = ({
               <TextWrapper>
                 <Heading color='#304856'>Hi! I'm Xiao Sean Zhan.</Heading>
                 <Subtitle color='#304856'>
-                  I'm a first year PhD student at MIT CSAIL, where I'm fortunate to be advised by <NewsLink href='https://people.csail.mit.edu/mina/' target='_blank'>Mina</NewsLink>. To democratize 3D shape creation, my research focuses on the intersection of computer graphics and artificial intelligence; I use machine learning techniques to understand, generate, and manipulate 3D shapes. I'm supported by the EECS Graduate Alumni Fellowship.
+                  I'm a second year PhD student at MIT CSAIL, where I'm fortunate to be advised by <NewsLink href='https://people.csail.mit.edu/mina/' target='_blank'>Mina</NewsLink>. My research focuses on developing 3D generative modeling techniques to create fabricable designs that satisfy real-world physical constraints. I'm supported by the EECS Graduate Alumni Fellowship and MIT-IBM Watson AI Lab.
                 </Subtitle>
                 <Subtitle color='#304856'>
                   I previously obtained my Sc.B. from Brown University, where I conducted research under the guidance of <NewsLink href='https://dritchie.github.io/' target='_blank'>Daniel</NewsLink> and <NewsLink href='https://cs.brown.edu/people/ssrinath/' target='_blank'>Srinath</NewsLink>.

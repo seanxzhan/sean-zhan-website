@@ -1,7 +1,7 @@
 const pub1 = {
   title: 'ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model',
   arxivLink: 'https://arxiv.org/abs/2207.09446',
-  projectLink: 'https://ivl.cs.brown.edu/#/projects/shapecrafter',
+  projectLink: 'https://ivl.cs.brown.edu/research/shapecrafter.html',
   authors: {
     'Rao Fu': 'https://freddierao.github.io/',
     'Xiao Zhan': 'https://seanzhan.com/',
@@ -16,7 +16,7 @@ const pub1 = {
 
 const pub2 = {
   title: 'CharacterMixer: Rig-Aware Interpolation of 3D Characters',
-  arxivLink: '',
+  arxivLink: 'https://arxiv.org/abs/2402.15580',
   projectLink: 'https://seanxzhan.github.io/projects/CharacterMixer.html',
   authors: {
     'Xiao Zhan': 'https://seanzhan.com/',
