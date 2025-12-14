@@ -12,7 +12,7 @@ export const ExpWrapper = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 1;
-  min-height: 700px;
+  min-height: 600px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -24,7 +24,7 @@ export const ServicesWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   // padding: 0 50px;
@@ -48,7 +48,7 @@ export const ServicesCard = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  min-height: 380px;
+  min-height: 300px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;

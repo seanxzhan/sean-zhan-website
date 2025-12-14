@@ -28,7 +28,7 @@ const Row = ({
     ([ key, value ]) => {
       return value === '' ?
       (<PubsText>{key}</PubsText>) :
-      key === 'Xiao Zhan' ?
+      key.includes('Xiao Zhan') ?
       (<PubsAuthor href={value} target='_blank'><u>{key}</u></PubsAuthor>) :
       (<PubsAuthor href={value} target='_blank'>{key}</PubsAuthor>)
     }

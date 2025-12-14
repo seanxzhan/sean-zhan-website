@@ -28,5 +28,22 @@ const pub2 = {
   alt: 'charactermixer',
 };
 
-const Pubs = [ pub2, pub1 ];
+const pub3 = {
+  title: 'PhysiOpt: Physics-Driven Shape Optimization for 3D Generative Models',
+  arxivLink: 'https://dl.acm.org/doi/abs/10.1145/3757377.3763884',
+  projectLink: 'https://physiopt.github.io/',
+  authors: {
+    'Xiao Zhan*': 'https://seanzhan.com/',
+    'Clément Jambon*': 'https://clementjambon.github.io/',
+    'Evan Thompson': 'https://evanthompson.site/about',
+    'Kenney Ng': 'https://research.ibm.com/people/kenney-ng',
+    'Mina Konaković Luković': 'https://people.csail.mit.edu/mina/',
+    '*equal contribution': '',
+  },
+  venue: 'SIGGRAPH ASIA 2025',
+  img: require('../../images/pubs/physiopt.jpg'),
+  alt: 'physiopt',
+}
+
+const Pubs = [ pub3, pub2, pub1 ];
 module.exports = Pubs;
