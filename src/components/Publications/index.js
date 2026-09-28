@@ -51,6 +51,10 @@ const Row = ({
           {venue}
         </PubsLine>
         <PubsLine>
+        <PubsAuthor href={arxivLink} target='_blank'>
+          paper
+        </PubsAuthor>
+        {' | '}
         <PubsAuthor href={projectLink} target='_blank'>
           project page
         </PubsAuthor>
@@ -73,13 +77,6 @@ const Publications = () => {
           <PubH1>Publications</PubH1>
           <PubsContainer>
             {allRows}
-            {/* <PubsRow>
-              <PubsDescription>
-                <PubsLine>
-                  More to come!
-                </PubsLine>
-              </PubsDescription>
-            </PubsRow> */}
           </PubsContainer>
         </InfoWrapper>
       </InfoContainer>

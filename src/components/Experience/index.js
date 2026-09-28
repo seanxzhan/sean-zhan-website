@@ -25,6 +25,7 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={Roblox} />
           <ServicesH2 color='#304856'>Roblox</ServicesH2>
+          <ServicesH3 color='#304856'>Applied Scientist Intern '26</ServicesH3>
           <ServicesH3 color='#304856'>Research Intern '25</ServicesH3>
         </ServicesCard>
         <ServicesCard>

@@ -45,5 +45,22 @@ const pub3 = {
   alt: 'physiopt',
 }
 
-const Pubs = [ pub3, pub2, pub1 ];
+const pub4 = {
+  title: 'Learned Localized Mesh Refinement',
+  arxivLink: require('../../pdfs/LearnedLocalizedMeshRefinement.pdf'),
+  projectLink: 'https://seanzhan.com/',
+  authors: {
+    'Xiao Zhan': 'https://seanzhan.com/',
+    'Chrystiano Araújo': 'https://www.chrystianoaraujo.com/',
+    'Kangle Deng': 'https://dunbar12138.github.io/',
+    'Maneesh Agrawala': 'https://graphics.stanford.edu/~maneesh/',
+    'Hsueh-Ti Derek Liu': 'https://www.dgp.toronto.edu/~hsuehtil/',
+    'Mina Konaković Luković': 'https://people.csail.mit.edu/mina/',
+  },
+  venue: 'SIGGRAPH ASIA 2026 (Deferred to present at SIGGRAPH 2027)',
+  img: require('../../images/pubs/refinement.png'),
+  alt: 'refinement',
+}
+
+const Pubs = [ pub4, pub3, pub2, pub1 ];
 module.exports = Pubs;

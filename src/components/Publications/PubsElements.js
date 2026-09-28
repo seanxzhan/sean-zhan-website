@@ -34,6 +34,7 @@ export const PubsRow = styled.div`
   justify-content: flex-start;
   padding-left: 8%;
   padding-right: 8%;
+  margin-bottom: 1.5rem;
   // background-color: orange;
 
   @media screen and (max-width: 768px) {
@@ -56,16 +57,12 @@ export const PubsImgWrapper = styled.div`
 `
 
 export const PubsImg = styled.img`
-  height: 100px;
-  width: 160px;
+  height: 150px;
+  width: 240px;
 
   @media screen and (max-width: 768px) {
-    // height: 150px;
-    // width: 240px;
-    height: 10rem;
-    width: 16rem;
-    // max-width: 100%;
-    // height: auto;
+    height: 12rem;
+    width: 19.2rem;
   }
 `;
 
