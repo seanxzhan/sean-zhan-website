@@ -1,9 +1,9 @@
-$color1: #ecede7;
-$color2: #b8d2e1;
-$color3: #758c9b;
-$color4: #304856;
-$color5: #28739e;
-$accent: #d4ac2a;
+$color1: #f6f6f4;
+$color2: #a9c2d1;
+$color3: #7a8891;
+$color4: #2c3e4a;
+$color5: #2f5772;
+$accent: #3f6a86;
 
 $main-font: 'Raleway', sans-serif;
 
@@ -31,10 +31,10 @@ section wrapper {
 }
 
 a.NewsLink {
-  color: #117bb8;
+  color: #3f6a86;
   text-decoration: none;
 
   &:hover {
-    color: #758c9b;
+    color: #7a8891;
   }
 }

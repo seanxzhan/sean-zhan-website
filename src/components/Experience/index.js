@@ -24,23 +24,23 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Roblox} />
-          <ServicesH2 color='#304856'>Roblox</ServicesH2>
-          <ServicesH3 color='#304856'>Applied Scientist Intern '26</ServicesH3>
-          <ServicesH3 color='#304856'>Research Intern '25</ServicesH3>
+          <ServicesH2 color='#2c3e4a'>Roblox</ServicesH2>
+          <ServicesH3 color='#2c3e4a'>Applied Scientist Intern '26</ServicesH3>
+          <ServicesH3 color='#2c3e4a'>Research Intern '25</ServicesH3>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={MIT} />
-          <ServicesH2 color='#304856'>Massachusetts Institute of Technology</ServicesH2>
-          <ServicesH3 color='#304856'>Ph.D. Student</ServicesH3>
-          {/* <ServicesP color='#304856'>
+          <ServicesH2 color='#2c3e4a'>Massachusetts Institute of Technology</ServicesH2>
+          <ServicesH3 color='#2c3e4a'>Ph.D. Student</ServicesH3>
+          {/* <ServicesP color='#2c3e4a'>
             Graphics research in Algorithmic Design Group.
           </ServicesP> */}
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Pixar} />
-          <ServicesH2 color='#304856'>Pixar Animation Studios</ServicesH2>
-          <ServicesH3 color='#304856'>Research Intern '22</ServicesH3>
-          {/* <ServicesP color='#304856'>
+          <ServicesH2 color='#2c3e4a'>Pixar Animation Studios</ServicesH2>
+          <ServicesH3 color='#2c3e4a'>Research Intern '22</ServicesH3>
+          {/* <ServicesP color='#2c3e4a'>
             Worked on neural skinning to predict corrective shapes for character
             rigging. 
             Outperformed linear blend skinning by an 80% increase in
@@ -49,13 +49,13 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Brown} />
-          <ServicesH2 color='#304856'>Brown University</ServicesH2>
-          <ServicesH3 color='#304856'>Undergrad RA '20-'23</ServicesH3>
-          {/* <ServicesP color='#304856'>
+          <ServicesH2 color='#2c3e4a'>Brown University</ServicesH2>
+          <ServicesH3 color='#2c3e4a'>Undergrad RA '20-'23</ServicesH3>
+          {/* <ServicesP color='#2c3e4a'>
             <span style={{ fontWeight: 'bold' }}>ShapeCrafter </span>
             recursively modifies 3D shape distributions given text inputs.
           </ServicesP>
-          <ServicesP color='#304856'>
+          <ServicesP color='#2c3e4a'>
             <span style={{ fontWeight: 'bold' }}>CharacterMixer </span>
             interpolates characters during animation sequences.
           </ServicesP> */}

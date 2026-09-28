@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-  background-color: #ecede7;
+  background-color: #f6f6f4;
 
   @media screen and (max-width: 768px) {
     padding: 10px 0;
@@ -28,7 +28,7 @@ export const PubsContainer = styled.div`
 `;
 
 export const PubsRow = styled.div`
-  // background-color: #d4ac2a;
+  // background-color: #3f6a86;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -80,12 +80,12 @@ export const PubsTitle = styled.a`
   font-size: 1.15rem;
   margin-left: 1rem;
   text-decoration: none;
-  color: #117bb8;
+  color: #3f6a86;
   display: block;
   padding-bottom: 0.3rem;
 
   &:hover {
-    color: #758c9b;
+    color: #7a8891;
   }
 
   // @media screen and (max-width: 480px) {
@@ -97,10 +97,10 @@ export const PubsAuthor = styled.a`
   font-size: 1rem;
   // margin-left: 1rem;
   text-decoration: none;
-  color: #117bb8;
+  color: #3f6a86;
 
   &:hover {
-    color: #758c9b;
+    color: #7a8891;
   }
 
   // @media screen and (max-width: 480px) {
@@ -109,7 +109,7 @@ export const PubsAuthor = styled.a`
 `;
 
 export const PubsText = styled.a`
-  color: #304856;
+  color: #2c3e4a;
 
   // @media screen and (max-width: 480px) {
   //   font-size: 0.9em;
@@ -120,7 +120,7 @@ export const PubsLine = styled.div`
   font-size: 1rem;
   margin-left: 1rem;
   display: block;
-  color: #304856;
+  color: #2c3e4a;
   padding-bottom: 0.3rem;
 
   // @media screen and (max-width: 480px) {
@@ -130,7 +130,7 @@ export const PubsLine = styled.div`
 
 export const PubH1 = styled.h1`
   font-size: 2.5rem;
-  color: #304856;
+  color: #2c3e4a;
   margin-top: 3.5rem;
   margin-bottom: 3.2rem;
   // background-color: red;

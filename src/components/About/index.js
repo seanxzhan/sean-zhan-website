@@ -37,17 +37,17 @@ const Intro = ({
           <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                <Heading color='#304856'>Hi! I'm Xiao Sean Zhan.</Heading>
-                <Subtitle color='#304856'>
+                <Heading color='#2c3e4a'>Hi! I'm Xiao Sean Zhan.</Heading>
+                <Subtitle color='#2c3e4a'>
                   I'm a fourth year PhD student at MIT CSAIL, where I'm fortunate to be advised by <NewsLink href='https://people.csail.mit.edu/mina/' target='_blank'>Mina</NewsLink>. My research focuses on using machine learning techniques to understand, generate, and manipulate 3D shapes.
                 </Subtitle>
-                <Subtitle color='#304856'>
+                <Subtitle color='#2c3e4a'>
                   I previously obtained my Sc.B. from Brown University, where I conducted research under the guidance of <NewsLink href='https://dritchie.github.io/' target='_blank'>Daniel</NewsLink> and <NewsLink href='https://cs.brown.edu/people/ssrinath/' target='_blank'>Srinath</NewsLink>.
                 </Subtitle>
-                <Subtitle color='#304856'>
+                <Subtitle color='#2c3e4a'>
                   In my free time, I play ultimate frisbee and snowboard, ride (and sometimes build) bikes, and make <NewsLink href="https://www.instagram.com/sean.takes.shots/" target='_blank'>film photographs</NewsLink>.
                 </Subtitle>
-                <LastSubtitle color='#304856'>
+                <LastSubtitle color='#2c3e4a'>
                   <NewsLink href="https://scholar.google.com/citations?user=gG5iL0QAAAAJ&hl=en" target='_blank'>Google Scholar</NewsLink> | <NewsLink href={Resume} target='_blank'>CV</NewsLink>
                   {/* | <Link to='/projects' className='NewsLink'>Past Projects</Link> */}
                 </LastSubtitle>
@@ -62,24 +62,24 @@ const Intro = ({
         </InfoWrapper>
         {/* <NewsWrapper>
           <NewsColumn>
-            <NewsHeading color='#304856'>Recent News</NewsHeading>
-            <NewsRow color='#304856'>
+            <NewsHeading color='#2c3e4a'>Recent News</NewsHeading>
+            <NewsRow color='#2c3e4a'>
               <NewsDate>February 2024</NewsDate>
               <NewsDesc>My first first-author paper CharacterMixer was accepted to Eurographics 2024!</NewsDesc>
             </NewsRow>
-            <NewsRow color='#304856'>
+            <NewsRow color='#2c3e4a'>
               <NewsDate>May 2023</NewsDate>
               <NewsDesc>I graduated with honors from Brown University.</NewsDesc>
             </NewsRow>
-            <NewsRow color='#304856'>
+            <NewsRow color='#2c3e4a'>
               <NewsDate>May 2023</NewsDate>
               <NewsDesc>I was awarded the Senior Prize by the Brown CS Department.</NewsDesc>
             </NewsRow>
-            <NewsRow color='#304856'>
+            <NewsRow color='#2c3e4a'>
               <NewsDate>May 2023</NewsDate>
               <NewsDesc>I won 2nd place at the Brown CS Undergraduate Symposium out of 19 projects.</NewsDesc>
             </NewsRow>
-            <NewsRow color='#304856'>
+            <NewsRow color='#2c3e4a'>
               <NewsDate>October 2022</NewsDate>
               <NewsDesc>My first paper on <NewsLink href='https://ivl.cs.brown.edu/#/projects/shapecrafter' target='_blank'>recursively generating 3D shapes from text</NewsLink> was accepted to NeurIPS 2022.</NewsDesc>
             </NewsRow>

@@ -38,7 +38,7 @@ export const MobileIcon = styled.div`
     right: 0;
     transform: translate(-100%, 50%);
     font-size: 2rem;
-    color: #ecede7;
+    color: #f6f6f4;
     margin-top: 0.225rem;
   }
 
@@ -71,7 +71,7 @@ export const NavLink = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  color: #ecede7;
+  color: #f6f6f4;
   font-size: 1.2em;
 
   &:hover {
@@ -100,7 +100,7 @@ export const NavIcons = styled.div`
 
 export const NavIcon = styled.div`
   font-size: 2em;
-  color: #ecede7;
+  color: #f6f6f4;
 
   &:hover {
     color: ${({ color }) => ( color )};

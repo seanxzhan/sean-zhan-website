@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-  background-color: #ecede7;
+  background-color: #f6f6f4;
   border-bottom: 1px solid black;
   // background-color: orange;
 
@@ -155,11 +155,11 @@ export const NewsDesc = styled.p`
 `
 
 export const NewsLink = styled.a`
-  color: #117bb8;
+  color: #3f6a86;
   text-decoration: none;
 
   &:hover {
-    color: #758c9b;
+    color: #7a8891;
   }
 `
 

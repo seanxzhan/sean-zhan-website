@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
-  background: #304856;
+  background: #2c3e4a;
 
   @media screen and (max-width: 768px) {
     padding: 10px 0;
@@ -42,7 +42,7 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-  background: #ecede7;
+  background: #f6f6f4;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

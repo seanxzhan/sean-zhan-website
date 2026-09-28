@@ -74,52 +74,52 @@ const Navbar = ({ toggle }) => {
   // };
 
   return (
-    <Nav color='#304856'>
+    <Nav color='#2c3e4a'>
       <NavbarContainer>
         <NavIcons>
-          <NavIcon color='#d4ac2a'>
+          <NavIcon color='#a9c2d1'>
             <FaGithub onClick={() => openLink("github")} />
           </NavIcon>
-          <NavIcon color='#d4ac2a'>
+          <NavIcon color='#a9c2d1'>
             <FaLinkedin onClick={() => openLink("linkedin")} />
           </NavIcon>
-          <NavIcon color='#d4ac2a'>
+          <NavIcon color='#a9c2d1'>
             <FaUserGraduate onClick={() => openLink("scholar")} />
           </NavIcon>
-          <NavIcon color='#d4ac2a'>
+          <NavIcon color='#a9c2d1'>
             <FaFileAlt onClick={() => openLink("resume")} />
           </NavIcon>
-          {/* <NavIcon color='#d4ac2a'>
+          {/* <NavIcon color='#a9c2d1'>
             <FaInstagram onClick={() => openLink("instagram")} />
           </NavIcon> */}
         </NavIcons>
         <NavMenu>
           <NavItem>
             <NavLink to='about' smooth={true} duration={500} spy={true}
-              exact='true' offset={-80} color='#d4ac2a'>
+              exact='true' offset={-80} color='#a9c2d1'>
               About
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink to='experience' smooth={true} duration={500} spy={true}
-              exact='true' offset={-80} color='#d4ac2a'>
+              exact='true' offset={-80} color='#a9c2d1'>
               Experience
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink to='publications' smooth={true} duration={500} spy={true}
-              exact='true' offset={-80} color='#d4ac2a'>
+              exact='true' offset={-80} color='#a9c2d1'>
               Publications
             </NavLink>
           </NavItem>
           {/* <NavItem>
           <NavLink to='projects' smooth={true} duration={500} spy={true}
-                   exact='true' offset={-80} color='#d4ac2a'>
+                   exact='true' offset={-80} color='#a9c2d1'>
             Projects
           </NavLink>
         </NavItem> */}
         </NavMenu>
-        <MobileIcon onClick={toggle} color='#d4ac2a'>
+        <MobileIcon onClick={toggle} color='#a9c2d1'>
           <FaBars />
         </MobileIcon>
       </NavbarContainer>

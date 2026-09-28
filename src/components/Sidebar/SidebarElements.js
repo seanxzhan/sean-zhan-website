@@ -20,7 +20,7 @@ export const SidebarContainer = styled.aside`
 
 export const CloseIcon = styled.div`
   font-size: 1.2em;
-  color: #ecede7;
+  color: #f6f6f4;
   &:hover {
     color: ${({ color }) => ( color )};
   }
