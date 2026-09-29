@@ -42,7 +42,7 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-  background: #f6f6f4;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

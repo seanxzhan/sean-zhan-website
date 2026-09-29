@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-  background-color: #f6f6f4;
+  background-color: #ffffff;
   border-bottom: 1px solid black;
   // background-color: orange;
 
