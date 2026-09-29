@@ -47,7 +47,7 @@ const pub3 = {
 
 const pub4 = {
   title: 'Learned Localized Mesh Refinement',
-  arxivLink: require('../../pdfs/LearnedLocalizedMeshRefinement.pdf'),
+  arxivLink: 'https://arxiv.org/abs/2609.31946',
   projectLink: 'https://seanzhan.com/',
   authors: {
     'Xiao Zhan': 'https://seanzhan.com/',
