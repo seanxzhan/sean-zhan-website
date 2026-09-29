@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.40f7605f.css",
-    "main.js": "/static/js/main.27076175.js",
+    "main.js": "/static/js/main.e49b2565.js",
     "static/js/787.8645e2e3.chunk.js": "/static/js/787.8645e2e3.chunk.js",
-    "static/media/LearnedLocalizedMeshRefinement.pdf": "/static/media/LearnedLocalizedMeshRefinement.936ce54635c9cfe22629.pdf",
     "static/media/refinement.png": "/static/media/refinement.3d2f2c463b5281a47996.png",
     "static/media/charactermixer.jpg": "/static/media/charactermixer.a1b32871b6118a347f6b.jpg",
     "static/media/physiopt.jpg": "/static/media/physiopt.a4124e7029e90efc6ef7.jpg",
@@ -16,11 +15,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.40f7605f.css.map": "/static/css/main.40f7605f.css.map",
-    "main.27076175.js.map": "/static/js/main.27076175.js.map",
+    "main.e49b2565.js.map": "/static/js/main.e49b2565.js.map",
     "787.8645e2e3.chunk.js.map": "/static/js/787.8645e2e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40f7605f.css",
-    "static/js/main.27076175.js"
+    "static/js/main.e49b2565.js"
   ]
 }
