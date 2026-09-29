@@ -59,6 +59,7 @@ export const PubsImgWrapper = styled.div`
 export const PubsImg = styled.img`
   height: 150px;
   width: 240px;
+  object-fit: contain;
 
   @media screen and (max-width: 768px) {
     height: 12rem;
